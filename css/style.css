@@ -1,0 +1,64 @@
+/* Home, articles */
+
+a:visited, a:link, a:active {
+    text-decoration: none;
+}
+a:hover {
+    color: dimgray;
+}
+.full-article { 
+    color: inherit;
+}
+.full-article:hover{
+    text-decoration: none;
+}
+.article-image:hover {
+    opacity: 0.5;
+}
+.breadcrumb {
+    background: none;
+}
+a {
+    color: inherit;
+}
+
+/* Pagination */
+
+.pagination > li > a {
+    padding: 6px 12px;
+    margin: 0 3px;
+    color: inherit;
+}
+.pagination > li > a:hover {
+    color: black;
+    background-color: lightgray;
+}
+.same-page {
+    color: black !important;
+    background-color: lightgray !important;
+    border-color: dimgray !important;
+}
+
+/* Chat */
+#chat-box {
+    height: 200px;
+    border: 1px solid gray;
+    overflow-y: scroll;
+}
+#chat-username {
+    border: 1px solid gray; 
+}
+#message {
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 0px;
+    overflow-y: scroll;
+}
+
+/* JS chat text */
+.chat-txt {
+    color: black;
+}
+.chat-info {
+    color: gray;
+}

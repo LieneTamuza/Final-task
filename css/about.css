@@ -1,0 +1,49 @@
+.breadcrumb {
+    background: none;
+}
+a {
+    color: inherit;
+}
+a:visited, a:link, a:active {
+  text-decoration: none;
+}
+a:hover {
+  color: dimgray;
+}
+
+/* Tabs */
+
+#tabs { 
+    border: none;
+}
+#tabs .ui-widget-header { 
+    background: transparent; 
+    border: none; 
+    border-bottom: 1px solid lightgray;
+} 
+#tabs .ui-tabs-nav .ui-state-default { 
+    background: transparent; 
+    border: none; 
+} 
+#tabs .ui-tabs-nav .ui-state-active { 
+    background: transparent no-repeat bottom center; 
+    border: none; 
+} 
+#tabs .ui-tabs-nav .ui-state-default a { 
+    color: gray; 
+    cursor: pointer; 
+} 
+#tabs .ui-tabs-nav .ui-state-active a { 
+    color: black; 
+}
+
+/* Map */
+
+#map {
+    height: 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
